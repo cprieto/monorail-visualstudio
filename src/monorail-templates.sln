@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoRail.Template", "MonoRail.Template\MonoRail.Template.csproj", "{97C94C36-48D6-4A30-B527-013CBBB14EE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "template-cs", "template-cs\template-cs.csproj", "{97C94C36-48D6-4A30-B527-013CBBB14EE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
