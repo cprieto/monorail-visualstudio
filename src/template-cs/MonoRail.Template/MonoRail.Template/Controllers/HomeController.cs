@@ -9,5 +9,9 @@ namespace MonoRail.Template.Controllers
         {
             PropertyBag["message"] = "Welcome to Castle MonoRail!";
         }
+
+        public void About()
+        {
+        }
     }
 }
