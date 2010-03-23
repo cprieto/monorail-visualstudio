@@ -4,7 +4,7 @@
 <title> 
     Home Page
 </title>
-<link href="Content/Site.css" rel="stylesheet" type="text/css" /></head> 
+<link href="$siteroot/Content/css/Site.css" rel="stylesheet" type="text/css" /></head> 
 <body> 
     <div class="page"> 
  
