@@ -21,9 +21,9 @@
             </div> 
             
             <div id="menucontainer"> 
-                <ul id="menu">              
-                    <li><a href="/">Home</a></li> 
-                    <li><a href="/Home/About">About</a></li> 
+                <ul id="menu">     
+					<li>$Url.Link("Home", "%{controller='Home', action='Index'}")</li>
+					<li>$Url.Link("About", "%{controller='Home', action='About'}")</li>
                 </ul> 
             
             </div> 
