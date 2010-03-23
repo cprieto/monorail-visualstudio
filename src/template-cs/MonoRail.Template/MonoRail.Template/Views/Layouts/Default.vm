@@ -1,8 +1,11 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head>
+#if(!$title)
+    #set($title = "Untitled")
+#end
 <title> 
-    Home Page
+    $title.Trim()
 </title>
 <link href="$siteroot/Content/css/Site.css" rel="stylesheet" type="text/css" /></head> 
 <body> 
@@ -26,12 +29,7 @@
             </div> 
         </div> 
  
-        <div id="main"> 
-            
-			<h2>Message</h2> 
-			<p> 
-				To learn more about Castle MonoRail visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-			</p>
+        <div id="main">
 			$childContent
             <div id="footer"> 
             </div> 

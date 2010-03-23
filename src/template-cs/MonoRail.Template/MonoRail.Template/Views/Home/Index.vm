@@ -1,1 +1,7 @@
-﻿
+﻿#capturefor(title)
+    $message
+#end
+<h2>$message</h2>
+<p>
+    To learn more about Castle MonoRail visit <a href="http://asp.net/mvc" title="Castle Project Website">http://asp.net/mvc</a>.
+</p>
