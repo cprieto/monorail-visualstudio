@@ -120,6 +120,7 @@
     <None Include="Views\Home\About.vm" />
     <None Include="Views\Home\Index.vm" />
     <None Include="Views\Layouts\Default.vm" />
+    <None Include="Views\Rescues\500.vm" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

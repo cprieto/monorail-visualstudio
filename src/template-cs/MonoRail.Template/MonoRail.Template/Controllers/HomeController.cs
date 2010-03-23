@@ -1,8 +1,9 @@
-﻿using Castle.MonoRail.Framework;
+﻿using System;
+using Castle.MonoRail.Framework;
 
 namespace MonoRail.Template.Controllers
 {
-    [Layout("Default")]
+    [Layout("Default"), Rescue("500")]
     public class HomeController : SmartDispatcherController
     {
         public void Index()
