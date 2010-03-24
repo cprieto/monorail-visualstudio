@@ -4,7 +4,7 @@ using Castle.MonoRail.Framework.Routing;
 
 namespace MonoRail.Template
 {
-    public class Global : HttpApplication
+    public class MonoRailApp : HttpApplication
     {
         protected void Application_Start(object sender, EventArgs e)
         {
