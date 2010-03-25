@@ -1,28 +1,29 @@
 <VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>monorail-cs</Name>
+    <Name>MonoRail Application</Name>
     <Description>Castle MonoRail Web Application</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>
-    </ProjectSubType>
-    <SortOrder>1000</SortOrder>
+    <ProjectSubType>Web</ProjectSubType>
+    <SortOrder>50</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>monorail-cs</DefaultName>
+    <DefaultName>MonoRailApplication</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="template-cs.csproj" File="template-cs.csproj" ReplaceParameters="true">
+    <Project TargetFileName="MonoRail.csproj" File="MonoRail.csproj" ReplaceParameters="true">
       <Folder Name="App_Data" TargetFolderName="App_Data" />
       <Folder Name="Content" TargetFolderName="Content">
         <Folder Name="css" TargetFolderName="css">
-          <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Site.css">Site.css</ProjectItem>
         </Folder>
         <Folder Name="js" TargetFolderName="js">
-          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
         </Folder>
       </Folder>
       <Folder Name="Controllers" TargetFolderName="Controllers">
