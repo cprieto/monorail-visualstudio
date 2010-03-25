@@ -3,7 +3,7 @@
     <Name>MonoRail Application</Name>
     <Description>Castle MonoRail Web Application</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Web</ProjectSubType>
+    <ProjectSubType></ProjectSubType>
     <SortOrder>50</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
