@@ -1,9 +1,10 @@
-<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>MonoRail Application</Name>
     <Description>Castle MonoRail Web Application</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType></ProjectSubType>
+    <TemplateID>Castle.MonoRail.WebApplication</TemplateID>
     <SortOrder>50</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
