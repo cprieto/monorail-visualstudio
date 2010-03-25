@@ -2,7 +2,7 @@
 using System.Web;
 using Castle.MonoRail.Framework.Routing;
 
-namespace MonoRail.Template
+namespace $safeprojectname$
 {
     public class MonoRailApp : HttpApplication
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Castle.MonoRail.Framework;
 
-namespace MonoRail.Template.Controllers
+namespace $safeprojectname$
 {
     [Layout("Default"), Rescue("500")]
     public class HomeController : SmartDispatcherController
