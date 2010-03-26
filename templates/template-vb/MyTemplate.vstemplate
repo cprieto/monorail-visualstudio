@@ -1,53 +1,49 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>MonoRail Application</Name>
     <Description>Castle MonoRail Web Application</Description>
     <ProjectType>VisualBasic</ProjectType>
-    <ProjectSubType></ProjectSubType>
-    <TemplateID>Castle.MonoRail.WebApplication</TemplateID>
+    <ProjectSubType>
+    </ProjectSubType>
     <SortOrder>50</SortOrder>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MonoRailApplication</DefaultName>
+    <DefaultName>MonoRail WebApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="MonoRail.vbproj" File="MonoRail.vbproj" ReplaceParameters="true">
       <Folder Name="App_Data" TargetFolderName="App_Data" />
       <Folder Name="Content" TargetFolderName="Content">
         <Folder Name="css" TargetFolderName="css">
-          <ProjectItem ReplaceParameters="false" TargetFileName="Site.css">Site.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
         </Folder>
         <Folder Name="js" TargetFolderName="js">
-          <ProjectItem ReplaceParameters="false" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
         </Folder>
       </Folder>
       <Folder Name="Controllers" TargetFolderName="Controllers">
-        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.vb">HomeController.vb</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.vb">Global.asax.vb</ProjectItem>
       <Folder Name="Models" TargetFolderName="Models" />
-      <Folder Name="Properties" TargetFolderName="Properties">
-        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      </Folder>
-	 <Folder Name="My Project" TargetFolderName="My Project">
-        	<ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
-	        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
-        	<ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
-        	<Folder Name="MyExtensions" TargetFolderName="MyExtensions">
-	          <ProjectItem ReplaceParameters="true" TargetFileName="MyWebExtension.vb">MyWebExtension.vb</ProjectItem>
-        	</Folder>
-	        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
-        	<ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
-        	<ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
-        	<ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+        <Folder Name="MyExtensions" TargetFolderName="MyExtensions">
+          <ProjectItem ReplaceParameters="true" TargetFileName="MyWebExtension.vb">MyWebExtension.vb</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.vb">Settings.Designer.vb</ProjectItem>
       </Folder>
       <Folder Name="Views" TargetFolderName="Views">
         <Folder Name="Home" TargetFolderName="Home">
