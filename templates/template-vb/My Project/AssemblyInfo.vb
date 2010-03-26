@@ -7,17 +7,15 @@ Imports System.Runtime.InteropServices
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
-<Assembly: AssemblyTitle("template_vb")> 
+<Assembly: AssemblyTitle("$safeprojectname$")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Microsoft")> 
-<Assembly: AssemblyProduct("template_vb")> 
-<Assembly: AssemblyCopyright("Copyright © Microsoft 2010")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyProduct("$safeprojectname$")> 
+<Assembly: AssemblyCopyright("Copyright © $year$")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("334e9cee-0d47-4d70-924b-b5098a3432cb")> 
+<Assembly: Guid("$guid1$")> 
 
 ' Version information for an assembly consists of the following four values:
 '
