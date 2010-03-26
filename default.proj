@@ -10,8 +10,8 @@
     <BaseTemplateDir>templates</BaseTemplateDir>
   </PropertyGroup>
   <ItemGroup>
-	  <CSTemplateFiles Include="$(BaseTemplate)\template-cs\**" />
-	  <VBTemplateFiles Include="$(BaseTemplate)\template-vb\**" />
+	  <CSTemplateFiles Include="$(BaseTemplateDir)\template-cs\**" />
+	  <VBTemplateFiles Include="$(BaseTemplateDir)\template-vb\**" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\MSBuild.Community.Tasks.Targets" />
   <Target Name="templates" DependsOnTargets="clean">
@@ -19,10 +19,10 @@
 	  <MakeDir Directories="$(OutputDirectory)" Condition="!Exists('$(OutputDirectory)')" />
 	  <Zip Files="@(CSTemplateFiles)" 
 		  ZipFileName="$(OutputDirectory)\CastleMonoRailApplicationCS.zip" 
-		  WorkingDirectory="$(TemplateDirectory)\template-cs" />
+		  WorkingDirectory="$(BaseTemplateDir)\template-cs" />
 	  <Zip Files="@(VBTemplateFiles)"
 		  ZipFileName="$(OutputDirectory)\CastleMonoRailApplicationVB.zip"
-		  WorkingDirectory="$(TemplateDirectory)\template-vb" />
+		  WorkingDirectory="$(BaseTemplateDir)\template-vb" />
   </Target>
   <Target Name="clean">
 	  <RemoveDir Directories="$(OutputDirectory)" Condition="Exists('$(OutputDirectory)')" />
